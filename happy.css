@@ -1,0 +1,169 @@
+body
+{
+    background-image: url(Images/pngtree-happy-hearts-wallpaper-picture-image_2784110.jpg);
+
+}
+
+h1{
+    border:1px solid black;
+    border-radius:4px;
+    background-color: pink;
+    text-align: center;
+    animation: colorChange 2s infinite;
+    
+}
+@keyframes colorChange {
+    0% {
+         background-image: url(Images/bg.jpg);
+         color:black;
+         
+    }
+    50% {
+        background-image: url(Images/istockphoto-1404056329-612x612.jpg);
+        
+        
+    }
+    100% {
+       background-image: url(images/bg.jpg);
+    }
+}
+
+.container
+{
+    display:flex;
+    width:100%;
+    height:50%;
+}
+.th
+{
+    flex:1;
+    border:2px solid black;
+    background-color: navajowhite;
+    padding:3px;
+    margin:3px;
+    border-radius:3px;
+    animation: ani 6s infinite;
+
+}
+
+@keyframes ani {
+
+    100%
+    {
+        background-color:rgb(9, 9, 9);
+        color:aliceblue;
+    }
+
+    
+}
+
+
+.ex
+{
+    flex:1;
+    border:2px solid black;
+    background-color: navajowhite;
+    padding:3px;
+    margin:3px;
+    border-radius:3px; 
+    animation: bni 6s infinite;
+}
+@keyframes bni {
+
+    100%
+    {
+        background-color:rgb(0, 0, 0);
+        color:aliceblue;
+    }
+
+    
+}
+
+.h{
+    flex:1;
+    border:2px solid black;
+    background-color: navajowhite;
+    padding:3px;
+    margin:3px;
+    border-radius:3px; 
+    animation: cni 6s infinite;
+
+}
+@keyframes cni {
+
+    100%
+    {
+        background-color:rgb(5, 5, 5);
+        color:aliceblue;
+    }
+
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.acontainer
+{
+
+    display:flex;
+    width:100%
+}
+
+.pe
+{
+    flex:1;
+    border:2px solid black;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    padding:3px;
+    margin:3px;
+    border-radius:3px;
+    animation: c 6s infinite;
+
+}
+
+@keyframes c {
+
+    100%
+    {
+        background-color:navajowhite;
+        color:black;
+    }
+
+    
+}
+
+.me
+{
+    flex:1;
+    border:2px solid black;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    padding:3px;
+    margin:3px;
+    border-radius:3px;
+    animation: co 6s infinite;
+}
+
+@keyframes co {
+
+    100%
+    {
+        background-color: navajowhite;
+        color:black;
+    }
+
+    
+}
+.ai
+{
+    color:aliceblue;
+    text-decoration: none;
+    border:2px solid black;
+    background-color: rgb(0, 0, 0);
+    border-radius:3px;
+}
+
+

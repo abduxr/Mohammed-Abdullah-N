@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRS-CALCULATION
+
+        
+    </title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <img src="images/sa.png" alt="" width="70px" title="Saranathan">
+    <h1>
+        ECG-Analysis
+    </h1>
+    <div class="ro" >
+      <div>
+        <h3 class="h">
+            QRS CALCULATION
+        </h3>
+      </div>
+     <DIV>
+        <label class="l" for="V">Duration</label>
+        <input class="ar" type="text" id="V" class="v" name="qrs-v" required placeholder="avl*0.04">
+     </DIV>
+     <br>
+     <div>
+        <label class="l" for="d">Voltage</label>
+        <input class="ar" type="text" id="d" class="d" name="d" required placeholder="avr*0.01">
+     </div>
+     <br>
+     <div>
+        <button onclick="cal()" class="c" type="submit">Submit</button>
+     </div>
+     <br>
+     
+     <div id="result">
+
+     </div >
+     <br>
+     <div id="result2">
+
+     </div>
+    </div>
+    <script>
+        function cal()
+        {
+            const duration = Number(document.getElementById('V').value);
+            const Voltage =  Number(document.getElementById('d').value);
+            let dur = duration*40;
+            let vol = Voltage*0.1.toFixed(3);
+            let result=document.getElementById('result');
+            let result2=document.getElementById('result2');
+            result.innerHTML= `Duration: ${dur.toFixed(2)}`;
+            result2.innerHTML=`Volgate : ${vol.toFixed(3)}`;
+            
+        }
+    </script>
+    <div class="a">
+        <a href="index.html">Click for Analysis</a>
+     </div>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Saranathan Happy Heart</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+    <img src="images/sa.png" alt="" width="70px" title="Saranathan">
+    <h1 class="h">
+        ECG-ANALYSIS
+    </h1>
+    <div class="container">
+        <h1 class="col"> <b>SCE</b> Heart-Health-Portal</h1>
+        <form id="healthForm">
+            <label class="l" for="name">Name:</label>
+            <input class="inp" type="text" id="name" placeholder="Ex:Ram" required>
+             <br>
+             
+            <label class="l" for="age">Age:</label>
+            <input class="inp" type="number" id="age"  required>
+            <br>
+            
+            <label class="l" for="sex">Sex:</label>
+            <select class="inp" id="sex" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            
+            <label class="l" for="email">Email:</label>
+            <input class="inp" type="email" id="email" required>
+            <br>
+            
+            <label class="l" for="qrsDuration">QRS Duration (ms):</label>
+            <input class="inp" type="number" id="qrsDuration" required>
+            <br>
+        
+            <label class="l" for="qrsVoltage">QRS Voltage (mV):</label>
+            <input class="inp" type="number" id="qrsVoltage" required min="0" max="5">
+            <br>
+    
+            <button type="submit">Submit</button>
+        </form>
+        <div id="responseMessage" class="hidden"></div>
+    </div>
+    <script src="pat.js"></script>
+</div>
+</body>
+</html>

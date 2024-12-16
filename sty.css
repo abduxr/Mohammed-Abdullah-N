@@ -1,0 +1,92 @@
+.ar
+{
+    display:flex;
+    flex-direction:column;
+    margin-top:5px;
+    border-radius:5px;
+}
+
+.ro
+{
+    border:2px solid black;
+    padding:20px;
+    height:40vh;
+    width:230px;
+    position:relative;
+    left:40vw;
+    top:20vh;
+    border-radius:5px;
+    background-image: url("Images/ecg2.jpg");
+   
+}
+
+.h
+{
+    text-align:center;
+    text-decoration: underline;
+    position:relative;
+    bottom:20px;
+    font-size:x-larger
+}
+
+.c
+{
+    background-color: rgb(202, 211, 202);
+    width:100%;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.c:hover{
+    background-color: rgb(59, 205, 59);
+}
+
+
+.l
+{
+    border:2px solid black;
+    background-color: black;
+    border-radius:5px;
+    color:red
+}
+
+body
+{
+    background-image: url("Images/ecg2.jpg");
+}
+
+h1{
+    text-align: center;
+}
+
+#result
+{
+    border:2px solid black;
+    background-color:yellow;
+    
+}
+#result2
+{
+    border:2px solid black;
+    background-color:yellow;
+}
+
+
+
+.a{
+    position:relative;
+    top:150px;
+    left:620px;
+    border:2px solid black;
+    width:150px;
+    padding:5px;
+    background-color:antiquewhite;
+    border-radius:5px;
+    
+
+}
+.a:hover{
+    background-color: aliceblue;
+}
+
+
